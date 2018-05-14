@@ -1,0 +1,18 @@
+POUR CREER UN DOSSIER
+sudo mkdir new_dossier
+POUR CREER UN FICHIER
+sudo touch new_fichier
+POUR MODIFIER UN FICHIER
+sudo vim new_fichier
+POUR NAVIGUER DANS L'ARBORESCENCE
+cd /chemin/ici/ && cd .. (pour descendre dans l'arborescence)
+POUR VERIFIER CE QU'IL Y A DANS UN DOSSIER
+ls /chemin/ici/
+A CHAQUE AJOUT ET MODIFICATION
+git add new_dossier_ou_fichier
+git commit -m "Ajout du dossier ou fichier"
+git push
+POUR CREER UNE NOUVELLE BRANCHE
+git branch new_branche
+POUR CHANGER DE BRANCHE
+git checkout new_branche
